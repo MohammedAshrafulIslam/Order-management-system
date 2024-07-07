@@ -8,22 +8,9 @@ import java.io.FileNotFoundException;
  * The {@code Container} class is a generic container that can hold objects. It
  * provides methods for adding and removing objects, as well as querying the
  * size of the container.
- * Your implementation of this class or methods should not contains:
- * 1. No System.out.println statements should appear here. Instead, you need to
- * return the result. 2. No Scanner operations should appear here (e.g.,
- * input.nextInt()). Instead, refer to the input parameters of this method.
- *
- *
  */
 public class Container {
-	// No instance variable should be defined for this class.
-	/*  Your implementation starts here
-	 * Recall that :
-	 * 1. No System.out.println statements should appear here.
-	 * 	  Instead, you need to return the result.
-	 * 2. No Scanner operations should appear here (e.g., input.nextInt()).
-	 *    Instead, refer to the input parameters of this method.   
-	 */
+	
 	
 	
 	public void add(Object object) {
@@ -48,13 +35,7 @@ public class Container {
  *
  */
 class Queue extends Container {
-	/*  Your implementation starts here
-	 * Recall that :
-	 * 1. No System.out.println statements should appear here.
-	 * 	  Instead, you need to return the result.
-	 * 2. No Scanner operations should appear here (e.g., input.nextInt()).
-	 *    Instead, refer to the input parameters of this method.   
-	 */
+
 	
 	private ArrayList<Order> queue;
 	
@@ -141,13 +122,7 @@ class Queue extends Container {
  */
 class Stack extends Container {
 	
-	/*  Your implementation starts here
-	 * Recall that :
-	 * 1. No System.out.println statements should appear here.
-	 * 	  Instead, you need to return the result.
-	 * 2. No Scanner operations should appear here (e.g., input.nextInt()).
-	 *    Instead, refer to the input parameters of this method.   
-	 */
+	
 	
 	private ArrayList<Order> stack;
 	
@@ -229,13 +204,7 @@ class Stack extends Container {
  */
 class IOHandler {
 	
-	/*  Your implementation starts here
-	 * Recall that :
-	 * 1. No System.out.println statements should appear here.
-	 * 	  Instead, you need to return the result.
-	 * 2. No Scanner operations should appear here (e.g., input.nextInt()).
-	 *    Instead, refer to the input parameters of this method.   
-	 */
+	
 	
 	
 	public static List<String> readFile(String fileName) throws FileNotFoundException {
@@ -299,13 +268,6 @@ class IOHandler {
  */
 class Order {
 	
-	/*  Your implementation starts here
-	 * Recall that :
-	 * 1. No System.out.println statements should appear here.
-	 * 	  Instead, you need to return the result.
-	 * 2. No Scanner operations should appear here (e.g., input.nextInt()).
-	 *    Instead, refer to the input parameters of this method.   
-	 */
 	
 	private String customerName;
 	private int orderId;

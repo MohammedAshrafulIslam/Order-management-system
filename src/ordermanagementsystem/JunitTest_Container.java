@@ -16,11 +16,7 @@ import org.junit.Rule;
 @FixMethodOrder(MethodSorters.NAME_ASCENDING)
 
 public class JunitTest_Container {
-	/*
-	 * Note for students: these test cases are not comprehensive; you must add your
-	 * test cases to test your solution for this lab thoroughly.
-	 * 
-	 */
+	
 	@Rule
 	public Timeout globalTimeout = Timeout.seconds(1);
 
