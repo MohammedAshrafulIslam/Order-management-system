@@ -1,4 +1,4 @@
-```
+
 # Order Management System
 
 ## Overview
@@ -66,7 +66,7 @@ JUnit tests are located in the `test` package and can be executed to verify the 
 
 ### Example Test Case
 
-```java
+
 @Test
 public void test_01_01_() throws FileNotFoundException {
     List<String> expectedContent = Arrays.asList("1001, John Doe, Smartphone, 2, 100",
@@ -78,7 +78,7 @@ public void test_01_01_() throws FileNotFoundException {
     List<String> actualContent = IOHandler.readFile("test1.txt");
     assertEquals(expectedContent, actualContent);
 }
-```
+
 
 ## How to Run
 
@@ -102,4 +102,4 @@ public void test_01_01_() throws FileNotFoundException {
 
 The Order Management System is a well-tested Java application that processes and manages orders using container-like data structures. 
 Even though it lacks a GUI for direct interaction, its functionality is verified through comprehensive test cases.
-```
+
